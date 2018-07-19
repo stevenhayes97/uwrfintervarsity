@@ -1,0 +1,74 @@
+#header{ width: 50%; height 40%; float: left; }
+#dbcontent{
+font-family:Courier; 
+font-size: 15px; 
+3px double #32cd32;
+  margin: auto;
+    width: 60%;
+ }
+
+body{ background: #000000; color: #32cd32; }
+h1{ font-family:Courier; text-align: center; }
+.tabs{ text-align: center;
+  border: 45px;
+color: #32cd32; }
+#button2{
+float: center;
+  background-color: inherit;
+   color: #32cd32;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+ font-family:Courier;
+}
+
+#button2:hover {
+     background-color: #32cd32;
+color: #000000;
+}
+#entryform{ font-family:Courier; 
+position: absolute;
+top: 45%;
+left: 28%;}
+#button3 {
+background-color: inherit;
+   color: #32cd32;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+ font-family:Courier;
+position: absolute;
+top: 50%;
+left: 42%;
+}
+#button3:hover {
+     background-color: #32cd32;
+color: #000000;
+border: 3px solid #DD05D0  ;
+}
+#entrymsg{
+font-size: 14px;
+ font-family:Courier;
+ color: #32cd32;
+position: absolute;
+top: 45%;
+left: 28%;
+}
+#entryheader{
+font-size: 16px; 
+font-family:Courier;
+3px double #32cd32;
+text-align: center;
+}
+#create{
+font-size: 16px;
+ font-family:Courier;
+ color: #32cd32;
+}
