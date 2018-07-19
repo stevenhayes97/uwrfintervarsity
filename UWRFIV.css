@@ -1,0 +1,379 @@
+@charset "utf-8";
+/* CSS Document */
+#header{ 
+width: 50%; height 40%; float: left; 
+}
+
+#content{ 
+font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 16px; 
+}
+
+#picmsg{
+font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 18x; 
+text-align: center;
+}
+
+#welcome{ 
+text-align: center; font-family: "Century Gothic", CenturyGothic, sans-serif;
+font-weight: normal;
+}
+
+body{ 
+background-color:#FDFEFE; 
+}
+
+#button{ 
+font-family: "Century Gothic", CenturyGothic, sans-serif;
+}
+
+.a{ 
+ font-family: "Century Gothic", CenturyGothic, sans-serif;
+}
+
+#entryform{ 
+font-family: "Century Gothic", CenturyGothic, sans-serif;
+}
+
+input, textarea{ 
+font-family: "Century Gothic", CenturyGothic, sans-serif;
+}
+
+input[type="text"]{  
+padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s; 
+}
+
+input[type="email"]{  
+padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s; 
+}
+
+input[type="password"]{ 
+ padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s; 
+}
+
+input[type="text"]:focus{
+border: solid 1px #707070; 
+}
+
+input[type="email"]:focus{
+border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696; 
+}
+
+input[type="password"]:focus{
+border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696; 
+}
+
+input[type="textarea"]{ 
+ padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s; 
+}
+
+input[type="textarea"]:focus{
+border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696; 
+}
+
+#thankyoumsg{ 
+text-align: center; font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 26px; font-weight: normal; 
+}
+
+#button{
+    background-color: inherit;
+    border: none;
+    color: #17202A;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+#button:hover {
+      background-color: #ECECEC;
+color: #000000;
+}
+
+.tabs{  
+  border: 45px;
+color: #32cd32;
+ text-align: center;
+ }
+
+.login-form{
+text-align: center;
+}
+
+#eventspage{
+text-align: center;
+}
+
+#calendar{
+
+}
+
+#songtable{
+margin-left: auto;
+margin-right: auto;
+font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 16px; 
+color: black;
+}
+
+#sTable{
+margin-left: auto;
+margin-right: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+background-color: #C50000;
+    color: white;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2
+}
+
+#contactheader{
+
+font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 16px; 
+text-align: center;
+}
+#eventinfo{
+font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 16px; 
+text-align: left;
+font-weight: normal;
+}
+h2{
+font-weight: normal;
+}
+#calendarhead{
+text-align: center;
+}
+.myslides{
+position: relative;
+  width: 900px;
+  height: 550px;
+  margin: 0 auto .5em auto;
+}
+#slides{
+display: block;
+    margin: 0 auto;
+
+}
+
+#aboutuspic{
+ display: block;
+    margin: 0 auto;
+}
+
+#fbimg{
+height: 30px;
+width: 30px;
+}
+#facebook{
+position:fixed;
+    bottom:0px;
+    left:20%;
+}
+.container{
+font-family: "Century Gothic", CenturyGothic, sans-serif;font-size: 16px; 
+text-align: center;
+}
+#emailthx{
+display: block;
+    margin: 0 auto;
+width: 50%;
+height: 48%;
+border:1px solid #021a40;
+}
+#band{
+display: block;
+    margin: 0 auto;
+width: 50%;
+height: 48%;
+border:1px solid #021a40;
+}
+#headbg{
+//background-color: #BBDEFB  ;
+}
+#sidebar {
+  height: 100%;
+    width: 340px;
+  float: right;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FDFEFE  ;
+    padding-top: 60px;
+border-left: 5px solid;
+}
+#headerbg{
+
+}
+.sidebarcontent{
+text-align: center;
+}
+.style{
+background: #E72F2F  ; border:0; height:3px;
+}
+
+#style2{
+width: 52%;
+}
+
+#style3{
+
+}
+#smlogo{
+height: 100px;
+width: 100px;
+}
+#staff{
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+}
+
+#sgtable{
+text-align: center;
+font-family: "Century Gothic", CenturyGothic, sans-serif;
+margin-left: auto;
+margin-right: auto;
+}
+
+#staffinfo{
+text-align: center;
+}
+
+#verseofday{
+   width: 320px;
+    padding-left: 1em;
+margin: 1em 3em;
+	color: #2E4053  ;
+   border-left: 2px solid #999;
+   margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: #F5F5F5  ;
+}
+
+iframe{
+margin: 0 auto;
+display:block;
+}
+
+#footer{
+background-color: #C0C0C0;
+text-align: center; font-family: "Century Gothic", CenturyGothic, sans-serif;
+font-size: 11px;
+ position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:50px;
+}
+
+html, body{
+ margin-bottom:100px;
+margin:0;
+    padding:0;
+}
+
+html {
+    position:relative;
+    min-height: 100%;
+}
+
+#contactmsg{
+    padding-left: 1em;
+margin: 1em 3em;
+	color: #2E4053  ;
+   border-left: 2px solid #999;
+ margin-left: auto;
+margin-right: auto;
+ width: 400px;
+}
+
+#mainlogo{
+float: left;
+height: 40%;
+width: 40%;
+}
+
+h3{
+text-align: center;
+font-weight: normal;
+}
+
+#aboutinfo{
+font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 18px; 
+   width:750px;
+    padding-left: 1em;
+margin: 1em 3em;
+   border-left: 2px solid #999;
+   margin-left: auto;
+margin-right: auto;
+text-align: center;
+background-color: #EBEBEB;
+font-color: #34495E  ;
+}
+
+#believe{
+font-family: "Century Gothic", CenturyGothic, sans-serif;
+font-weight: normal;
+text-align: center;
+}
+
+.pictab{
+width: 170px;
+height: 130px;
+display: block;
+}
+
+#pictable{
+margin-left: auto;
+margin-right: auto;
+}
+
+#missionst{
+font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 22px; 
+   width:750px;
+    padding-left: 1em;
+margin: 1em 3em;
+   border-left: 2px solid #999;
+   margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-color: #34495E  ;
+background-color: #F5F5F5  ;
+}
+
+#cginfo{
+font-family: "Century Gothic", CenturyGothic, sans-serif; font-size: 17px; 
+   width:800px;
+    padding-left: 1em;
+margin: 1em 3em;
+   border-left: 2px solid #999;
+   margin-left: auto;
+margin-right: auto;
+text-align: center;
+font-color: #34495E  ;
+}
+
+#italic{
+font-style: italic;
+}
